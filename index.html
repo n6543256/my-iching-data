@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>My I Ching Demo</title></head>
+<body>
+  <h1>My I Ching Fortune</h1>
+  <button onclick="startFortune()">占う</button>
+  <div id="questions"></div>
+  <div id="result"></div>
+
+  <script>
+    let bits = "", currentRound = 0;
+    const totalRounds = 6;
+    let hexagrams = [], questions = [];
+
+    async function startFortune(){
+      // 1. JSON読み込み
+      //   ファイル名が "hexagrams" になっている想定
+      //   同様に questions.json を読み込む
+      let hxUrl = "https://raw.githubusercontent.com/n6543256/my-iching-data/main/hexagrams";
+      let qsUrl = "https://raw.githubusercontent.com/n6543256/my-iching-data/main/questions.json";
+
+      let hxResp = await fetch(hxUrl);
+      let qsResp = await fetch(qsUrl);
+
+      // JSONとしてパース
+      hexagrams = await hxResp.json();
+      questions = await qsResp.json();
+
+      // 2. 初期化
+      bits = "";
+      currentRound = 0;
+      document.getElementById("result").innerHTML = "";
+
+      // 3. 質問を表示
+      showQuestion();
+    }
+
+    function showQuestion(){
+      if(currentRound >= totalRounds){
+        // 6回答終わり → 2進数 → 卦番号
+        let num = parseInt(bits, 2); // 0..63
+        if(num >= hexagrams.length){
+          document.getElementById("result").innerHTML = "No data for ID=" + num;
+          return;
+        }
+        let hx = hexagrams[num];
+        document.getElementById("questions").innerHTML = "";
+        document.getElementById("result").innerHTML = `
+          卦番号: ${num}<br>
+          简体: ${hx.name_cn}<br>
+          直訳EN: ${hx.name_en}<br>
+          Wilhelm: ${hx.wilhelm_en}<br>
+          解説: ${hx.desc_en}
+        `;
+        return;
+      }
+
+      // ランダムに1問を出す
+      let q = questions[Math.floor(Math.random()*questions.length)];
+      document.getElementById("questions").innerHTML = `
+        Q${currentRound+1}: ${q.optionA} or ${q.optionB}?<br>
+        <button onclick="chooseOption(0)">A(0)=${q.optionA}</button>
+        <button onclick="chooseOption(1)">B(1)=${q.optionB}</button>
+      `;
+    }
+
+    function chooseOption(val){
+      bits = val + bits; // LSB→MSB
+      currentRound++;
+      showQuestion();
+    }
+  </script>
+</body>
+</html>
