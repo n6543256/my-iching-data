@@ -1,0 +1,450 @@
+[
+  {
+    "id": 0,
+    "name_cn": "乾为天",
+    "name_en": "Qian is made to be Heaven",
+    "wilhelm_en": "The Creative",
+    "desc_en": "Embodies pure creative force and unwavering initiative."
+  },
+  {
+    "id": 1,
+    "name_cn": "坤为地",
+    "name_en": "Kun is made to be Earth",
+    "wilhelm_en": "The Receptive",
+    "desc_en": "Represents receptive, nurturing power supporting all life."
+  },
+  {
+    "id": 2,
+    "name_cn": "水雷屯",
+    "name_en": "Water & Thunder sprout",
+    "wilhelm_en": "Difficulty at the Beginning",
+    "desc_en": "Suggests early difficulties where budding growth meets obstacles."
+  },
+  {
+    "id": 3,
+    "name_cn": "山水蒙",
+    "name_en": "Mountain & Water covered",
+    "wilhelm_en": "Youthful Folly",
+    "desc_en": "Highlights immature ignorance needing guidance and learning."
+  },
+  {
+    "id": 4,
+    "name_cn": "水天需",
+    "name_en": "Water & Heaven ask for",
+    "wilhelm_en": "Waiting (Nourishment)",
+    "desc_en": "Encourages patient waiting, preparing resources before action."
+  },
+  {
+    "id": 5,
+    "name_cn": "天水讼",
+    "name_en": "Heaven & Water complain",
+    "wilhelm_en": "Conflict (Contention)",
+    "desc_en": "Denotes confrontation or dispute calling for balanced resolution."
+  },
+  {
+    "id": 6,
+    "name_cn": "地水师",
+    "name_en": "Earth & Water Master",
+    "wilhelm_en": "The Army (Legions)",
+    "desc_en": "Symbolizes disciplined unity, akin to an organized force."
+  },
+  {
+    "id": 7,
+    "name_cn": "水地比",
+    "name_en": "Water & Earth comparison",
+    "wilhelm_en": "Holding Together (Union)",
+    "desc_en": "Emphasizes solidarity and supportive alliances among people."
+  },
+  {
+    "id": 8,
+    "name_cn": "风天小畜",
+    "name_en": "Wind & Heaven a few animals",
+    "wilhelm_en": "The Taming Power of the Small",
+    "desc_en": "Small yet consistent efforts guide modest gains and control."
+  },
+  {
+    "id": 9,
+    "name_cn": "天泽履",
+    "name_en": "Heaven & Lake put on shoes",
+    "wilhelm_en": "Treading (Conduct)",
+    "desc_en": "Warns to tread carefully and uphold proper conduct in action."
+  },
+  {
+    "id": 10,
+    "name_cn": "地天泰",
+    "name_en": "Earth & Heaven peaceful",
+    "wilhelm_en": "Peace (Prosperity)",
+    "desc_en": "Foretells harmony and beneficial relationships."
+  },
+  {
+    "id": 11,
+    "name_cn": "天地否",
+    "name_en": "Heaven & Earth negative",
+    "wilhelm_en": "Standstill (Stagnation)",
+    "desc_en": "Indicates stalemate or disconnection requiring patience."
+  },
+  {
+    "id": 12,
+    "name_cn": "天火同人",
+    "name_en": "Heaven & Fire a member",
+    "wilhelm_en": "Fellowship with Men",
+    "desc_en": "Emphasizes shared aims and unity among participants."
+  },
+  {
+    "id": 13,
+    "name_cn": "火天大有",
+    "name_en": "Fire & Heaven great possession",
+    "wilhelm_en": "Great Possession",
+    "desc_en": "Represents abundant resources and an auspicious outcome."
+  },
+  {
+    "id": 14,
+    "name_cn": "地山谦",
+    "name_en": "Earth & Mountain humble",
+    "wilhelm_en": "Modesty",
+    "desc_en": "Demands humility to secure balanced, respectful progress."
+  },
+  {
+    "id": 15,
+    "name_cn": "雷地豫",
+    "name_en": "Thunder & Earth in advance",
+    "wilhelm_en": "Enthusiasm (Providing-For)",
+    "desc_en": "Encourages joyful readiness, proactively preparing for tasks."
+  },
+  {
+    "id": 16,
+    "name_cn": "泽雷随",
+    "name_en": "Lake & Thunder follow",
+    "wilhelm_en": "Following",
+    "desc_en": "Stresses adapting to external influences with willing acceptance."
+  },
+  {
+    "id": 17,
+    "name_cn": "山风蛊",
+    "name_en": "Mountain & Wind corrupted",
+    "wilhelm_en": "Work on What Has Been Spoiled (Decay)",
+    "desc_en": "Focuses on fixing decay through thorough diligence and renewal."
+  },
+  {
+    "id": 18,
+    "name_cn": "地泽临",
+    "name_en": "Earth & Lake approach",
+    "wilhelm_en": "Approach",
+    "desc_en": "Involves guiding and overseeing, ensuring timely intervention."
+  },
+  {
+    "id": 19,
+    "name_cn": "风地观",
+    "name_en": "Wind & Earth observe",
+    "wilhelm_en": "Contemplation (Viewing)",
+    "desc_en": "Calls for deep observation and reflective insight."
+  },
+  {
+    "id": 20,
+    "name_cn": "火雷噬嗑",
+    "name_en": "Fire & Thunder biting",
+    "wilhelm_en": "Biting Through",
+    "desc_en": "Focus on cutting through obstacles with firm resolve."
+  },
+  {
+    "id": 21,
+    "name_cn": "山火贲",
+    "name_en": "Mountain & Fire decorated",
+    "wilhelm_en": "Grace (Adornment)",
+    "desc_en": "Emphasizes external adornment and refined presentation."
+  },
+  {
+    "id": 22,
+    "name_cn": "山地剥",
+    "name_en": "Mountain & Earth apart",
+    "wilhelm_en": "Splitting Apart",
+    "desc_en": "Indicates gradual erosion or peeling away from within."
+  },
+  {
+    "id": 23,
+    "name_cn": "地雷复",
+    "name_en": "Earth & Thunder return",
+    "wilhelm_en": "Return (Turning Point)",
+    "desc_en": "Suggests renewal and reemergence of positive energy."
+  },
+  {
+    "id": 24,
+    "name_cn": "天雷无妄",
+    "name_en": "Heaven & Thunder without wrong",
+    "wilhelm_en": "Innocence (Without Embroiling)",
+    "desc_en": "Stresses naturalness and sincerity free of selfish motive."
+  },
+  {
+    "id": 25,
+    "name_cn": "山天大畜",
+    "name_en": "Mountain & Heaven many animals",
+    "wilhelm_en": "The Taming Power of the Great",
+    "desc_en": "Large potential harnessed with disciplined management."
+  },
+  {
+    "id": 26,
+    "name_cn": "山雷颐",
+    "name_en": "Mountain & Thunder chin",
+    "wilhelm_en": "Nourishment",
+    "desc_en": "Focuses on how one sustains body and mind properly."
+  },
+  {
+    "id": 27,
+    "name_cn": "泽风大过",
+    "name_en": "Lake & Wind overwork",
+    "wilhelm_en": "Great Preponderance (Exceeding)",
+    "desc_en": "Represents overload demanding robust structural support."
+  },
+  {
+    "id": 28,
+    "name_cn": "坎为水",
+    "name_en": "Kan is made to be Water",
+    "wilhelm_en": "The Abysmal (Water over Water)",
+    "desc_en": "Repeated challenges testing inner resilience in adversity."
+  },
+  {
+    "id": 29,
+    "name_cn": "离为火",
+    "name_en": "Li is made to be Fire",
+    "wilhelm_en": "The Clinging (Fire over Fire)",
+    "desc_en": "Radiant clarity that thrives by adhering to a source."
+  },
+  {
+    "id": 30,
+    "name_cn": "泽山咸",
+    "name_en": "Lake & Mountain feel",
+    "wilhelm_en": "Influence (Wooing)",
+    "desc_en": "Involves mutual attraction forging heartfelt bonds."
+  },
+  {
+    "id": 31,
+    "name_cn": "雷风恒",
+    "name_en": "Thunder & Wind permanent",
+    "wilhelm_en": "Duration (Constancy)",
+    "desc_en": "Stresses perseverance leading to enduring progress."
+  },
+  {
+    "id": 32,
+    "name_cn": "天山遁",
+    "name_en": "Heaven & Mountain retreat",
+    "wilhelm_en": "Retreat",
+    "desc_en": "Advises a strategic withdrawal to preserve advantage."
+  },
+  {
+    "id": 33,
+    "name_cn": "雷天大壮",
+    "name_en": "Thunder & Heaven great power",
+    "wilhelm_en": "Great Power (Great Strength)",
+    "desc_en": "Mighty force requiring disciplined application for success."
+  },
+  {
+    "id": 34,
+    "name_cn": "火地晋",
+    "name_en": "Fire & Earth proceed",
+    "wilhelm_en": "Progress",
+    "desc_en": "Advancement through consistent, decisive action."
+  },
+  {
+    "id": 35,
+    "name_cn": "地火明夷",
+    "name_en": "Earth & Fire darkness",
+    "wilhelm_en": "Darkening of the Light",
+    "desc_en": "Light obscured; preserve inner truth under adversity."
+  },
+  {
+    "id": 36,
+    "name_cn": "风火家人",
+    "name_en": "Wind & Fire family",
+    "wilhelm_en": "The Family",
+    "desc_en": "Focuses on domestic harmony and supportive relationships."
+  },
+  {
+    "id": 37,
+    "name_cn": "火泽睽",
+    "name_en": "Fire & Lake look away",
+    "wilhelm_en": "Opposition",
+    "desc_en": "Differences create tension, urging respectful resolution."
+  },
+  {
+    "id": 38,
+    "name_cn": "水山蹇",
+    "name_en": "Water & Mountain closed",
+    "wilhelm_en": "Obstruction (Limping)",
+    "desc_en": "Challenges hamper progress, demanding careful navigation."
+  },
+  {
+    "id": 39,
+    "name_cn": "雷水解",
+    "name_en": "Thunder & Water release",
+    "wilhelm_en": "Deliverance (Release)",
+    "desc_en": "Pressure is lifted through decisive action, freeing momentum."
+  },
+  {
+    "id": 40,
+    "name_cn": "山泽损",
+    "name_en": "Mountain & Lake loss",
+    "wilhelm_en": "Decrease",
+    "desc_en": "Focus on reducing excess and refining priorities."
+  },
+  {
+    "id": 41,
+    "name_cn": "风雷益",
+    "name_en": "Wind & Thunder profit",
+    "wilhelm_en": "Increase",
+    "desc_en": "Represents expansion and gains through supportive influences."
+  },
+  {
+    "id": 42,
+    "name_cn": "泽天夬",
+    "name_en": "Lake & Heaven resolute",
+    "wilhelm_en": "Breakthrough (Resoluteness)",
+    "desc_en": "Demands decisive action to cut through lingering doubts."
+  },
+  {
+    "id": 43,
+    "name_cn": "天风姤",
+    "name_en": "Heaven & Wind meet",
+    "wilhelm_en": "Coming to Meet",
+    "desc_en": "Unexpected encounters requiring alertness and readiness."
+  },
+  {
+    "id": 44,
+    "name_cn": "泽地萃",
+    "name_en": "Lake & Earth gather",
+    "wilhelm_en": "Gathering Together",
+    "desc_en": "Convergence of people or resources for collective strength."
+  },
+  {
+    "id": 45,
+    "name_cn": "地风升",
+    "name_en": "Earth & Wind rise",
+    "wilhelm_en": "Pushing Upward (Rising)",
+    "desc_en": "Gradual upward momentum fueled by steady development."
+  },
+  {
+    "id": 46,
+    "name_cn": "泽水困",
+    "name_en": "Lake & Water upset",
+    "wilhelm_en": "Oppression (Exhaustion)",
+    "desc_en": "Tension or hardship testing endurance under strain."
+  },
+  {
+    "id": 47,
+    "name_cn": "水风井",
+    "name_en": "Water & Wind well",
+    "wilhelm_en": "The Well",
+    "desc_en": "A communal source of nourishment vital for shared growth."
+  },
+  {
+    "id": 48,
+    "name_cn": "泽火革",
+    "name_en": "Lake & Fire revolution",
+    "wilhelm_en": "Revolution (Molting)",
+    "desc_en": "Radical transformation clearing stagnant conditions."
+  },
+  {
+    "id": 49,
+    "name_cn": "火风鼎",
+    "name_en": "Fire & Wind kettle",
+    "wilhelm_en": "The Cauldron",
+    "desc_en": "A vessel of change refining potential into nourishment."
+  },
+  {
+    "id": 50,
+    "name_cn": "震为雷",
+    "name_en": "Zhen is made to be Thunder",
+    "wilhelm_en": "The Arousing (Shock)",
+    "desc_en": "Powerful movement spurring decisive action and fresh starts."
+  },
+  {
+    "id": 51,
+    "name_cn": "艮为山",
+    "name_en": "Gen is made to be Mountain",
+    "wilhelm_en": "Keeping Still (Mountain over Mountain)",
+    "desc_en": "Stresses stillness, reflection, and halting unproductive motion."
+  },
+  {
+    "id": 52,
+    "name_cn": "风山渐",
+    "name_en": "Wind & Mountain gradually",
+    "wilhelm_en": "Development (Gradual Progress)",
+    "desc_en": "Slow, steady advancement requiring patience and consistent effort."
+  },
+  {
+    "id": 53,
+    "name_cn": "雷泽归妹",
+    "name_en": "Thunder & Lake marriage",
+    "wilhelm_en": "The Marrying Maiden",
+    "desc_en": "Constraints in a union urging acceptance or strategic readiness."
+  },
+  {
+    "id": 54,
+    "name_cn": "雷火丰",
+    "name_en": "Thunder & Fire rich",
+    "wilhelm_en": "Abundance (Fullness)",
+    "desc_en": "Peak condition shining forth in maximum, expansive energy."
+  },
+  {
+    "id": 55,
+    "name_cn": "火山旅",
+    "name_en": "Fire & Mountain travel",
+    "wilhelm_en": "The Wanderer (Traveling)",
+    "desc_en": "Emphasizes adapting to unfamiliar places and transitional phases."
+  },
+  {
+    "id": 56,
+    "name_cn": "巽为风",
+    "name_en": "Xun is made to be Wind",
+    "wilhelm_en": "The Gentle (Wind over Wind)",
+    "desc_en": "Subtle, pervasive influence shaping outcomes through gentle persistence."
+  },
+  {
+    "id": 57,
+    "name_cn": "兑为泽",
+    "name_en": "Dui is made to be Lake",
+    "wilhelm_en": "The Joyous (Lake over Lake)",
+    "desc_en": "Openness and delight shared among companions and communication."
+  },
+  {
+    "id": 58,
+    "name_cn": "风水涣",
+    "name_en": "Wind & Water melt",
+    "wilhelm_en": "Dispersion (Dissolution)",
+    "desc_en": "Obstacles dissolve, restoring clarity and uniting scattered forces."
+  },
+  {
+    "id": 59,
+    "name_cn": "水泽节",
+    "name_en": "Water & Lake rule",
+    "wilhelm_en": "Limitation (Regulation)",
+    "desc_en": "Boundaries channeled for balanced use of resources and energy."
+  },
+  {
+    "id": 60,
+    "name_cn": "风泽中孚",
+    "name_en": "Wind & Lake faithful",
+    "wilhelm_en": "Inner Truth (Sincerity)",
+    "desc_en": "Implies deep trust and heartfelt sincerity uniting all parties."
+  },
+  {
+    "id": 61,
+    "name_cn": "雷山小过",
+    "name_en": "Thunder & Mountain miss",
+    "wilhelm_en": "Small Preponderance (Exceeding)",
+    "desc_en": "Minor errors or oversights cautioning to avoid greater faults."
+  },
+  {
+    "id": 62,
+    "name_cn": "水火既济",
+    "name_en": "Water & Fire complete",
+    "wilhelm_en": "After Completion (Already Fulfilled)",
+    "desc_en": "Opposing elements achieve synergy, signifying realized potential."
+  },
+  {
+    "id": 63,
+    "name_cn": "火水未济",
+    "name_en": "Fire & Water incomplete",
+    "wilhelm_en": "Before Completion (Not Yet Fulfilled)",
+    "desc_en": "Highlights the final stage needing care before full resolution."
+  }
+]
