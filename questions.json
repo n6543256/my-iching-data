@@ -1,0 +1,8 @@
+[
+  { "optionA": "Cat",     "optionB": "Dog" },
+  { "optionA": "Coffee",  "optionB": "Tea" },
+  { "optionA": "Sea",     "optionB": "Mountain" },
+  { "optionA": "Summer",  "optionB": "Winter" },
+  { "optionA": "Stay in", "optionB": "Go out" },
+  { "optionA": "Rice",    "optionB": "Bread" }
+]
